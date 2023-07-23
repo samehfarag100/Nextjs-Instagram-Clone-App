@@ -1,0 +1,32 @@
+{
+  "name": "instagram-app-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.3",
+    "firebase": "^9.22.1",
+    "next": "13.4.4",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-moment": "^1.1.3",
+    "recoil": "^0.7.7",
+    "stories-react": "^1.1.2",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "autoprefixer": "^10.4.14",
+    "faker": "^5.5.3",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav_icon {
+    @apply hidden md:inline-flex h-6 cursor-pointer hover:scale-105 transition duration-150 ease-in-out;
+  }
+
+  .post_btn {
+    @apply h-6 cursor-pointer hover:scale-125 transition duration-200 ease-in-out;
+  }
+}
